@@ -1,0 +1,11 @@
+file_format: "1"
+id: taw60
+name: taw60
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://ungodly.design
