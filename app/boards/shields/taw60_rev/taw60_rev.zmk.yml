@@ -1,0 +1,8 @@
+file_format: "1"
+id: taw60_rev
+name: Taw60_Rev
+type: shield
+url: https://ungodly.design
+requires: [pro_micro]
+features:
+  - keys
