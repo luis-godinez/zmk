@@ -1,11 +1,8 @@
 file_format: "1"
 id: taw60
-name: taw60
-type: board
-arch: arm
+name: Taw60
+type: shield
+url: https://ungodly.design
+requires: [pro_micro]
 features:
   - keys
-outputs:
-  - usb
-  - ble
-url: https://ungodly.design

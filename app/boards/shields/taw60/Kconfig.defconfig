@@ -1,25 +1,9 @@
-# Copyright (c) 2022 Luis Godinez
+# Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_TAW60
+if SHIELD_TAW60
 
 config ZMK_KEYBOARD_NAME
-	default "taw60"
+    default "Taw60"
 
-if USB_DEVICE_STACK
-
-config USB_NRFX
-	default y
-
-endif # USB_DEVICE_STACK
-
-config BT_CTLR
-	default BT
-
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
-
-endif # BOARD_TAW60
+endif
