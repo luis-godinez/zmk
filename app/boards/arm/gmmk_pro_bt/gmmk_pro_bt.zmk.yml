@@ -1,0 +1,12 @@
+file_format: "1"
+id: gmmk_pro_bt
+name: GMMK PRO BT
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+url: https://ungodly.design
